@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Vinyl&family=Ysabeau+SC:wght@1..1000&display=swap");
+
+* {
+  font-family: "Rubik Vinyl", serif;
+  background: rebeccapurple;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.main_Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  border: 2px solid white;
+  width: 40%;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.heading,
+.textbox {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.playground {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.player {
+  padding: 1rem 2rem;
+
+}
+
+.img {
+  width: 10rem;
+}
+
+p {
+  text-align: center;
+  font-size: larger;
+}
+
+button {
+  background: rgb(31, 30, 30);
+  padding: 1rem 1.5rem;
+  border: none;
+  font-size: larger;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
